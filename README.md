@@ -1,4 +1,4 @@
 Hello World
 ===========
 
-My Flask testbed.
+My Flask testbed. Clean slate for experimenting.
