@@ -1,0 +1,9 @@
+# the Flask microframework
+Flask
+
+# fun shell
+readline
+ipython
+
+# django-like app management
+Flask-Script
