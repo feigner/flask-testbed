@@ -1,11 +1,16 @@
 import code
-import app
 
 from flask.ext.script import Manager, Shell
+from blitz.app import app
+from blitz import database
 
+manager = Manager(app)
 
-manager = Manager(app.app)
-
+@manager.command
+def createdb():
+    "Creates database tables"
+    database.init_db()
+    print "database created!"
 
 class IShell(Shell):
 

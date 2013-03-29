@@ -1,6 +1,9 @@
 # the Flask microframework
 Flask
 
+# db
+flask-sqlalchemy
+
 # fun shell
 readline
 ipython

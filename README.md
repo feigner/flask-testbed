@@ -1,4 +1,4 @@
 Hello World
 ===========
 
-My Flask testbed. Clean slate for experimenting.
+Flask testbed for blitzkeg.
