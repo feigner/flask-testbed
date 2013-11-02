@@ -9,7 +9,7 @@ manager = Manager(app.app)
 
 class IShell(Shell):
 
-    def run(self, no_ipython):
+    def run(self, no_ipython, no_bpython):
         context = self.get_context()
         if not no_ipython:
             from IPython.frontend.terminal.embed import InteractiveShellEmbed

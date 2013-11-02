@@ -1,9 +1,9 @@
 # the Flask microframework
-Flask
+Flask==0.10.1
 
-# fun shell
-readline
-ipython
+# shell
+readline==6.2.4.1
+ipython==1.1.0
 
-# django-like app management
-Flask-Script
+# Django-like app management
+Flask-Script==0.6.2
